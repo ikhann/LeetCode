@@ -3,4 +3,7 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LeetCode Arrays_and_strings/reverse_strings.cpp)
+add_executable(LeetCode
+        Arrays_and_strings/reverse_strings.cpp
+        Arrays_and_strings/squares_of_a_sorted_array.cpp
+        Arrays_and_strings/max_consecutive_ones_3.cpp)
